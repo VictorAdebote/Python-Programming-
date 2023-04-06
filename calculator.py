@@ -8,12 +8,12 @@
 print('Welcome to calculator.')  # Welcome statement
 print()  
 print('''
-    0: addition
+    0: additionpython
     1: subtraction
     2: multiplication
     3: division
     4: exponential
-''')
+''') 
 
 operator = input('Choose the corresponding number of the operator to be used from the list above: ')  # This collects input from the user and saves it to the variable operator.
 num_1 = int(input('Insert the first number: '))  # This collects input from the user and saves it to the variable name, int is for typecasting.
