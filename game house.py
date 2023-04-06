@@ -6,7 +6,7 @@ users ={'ultraboy': {'password': '12167', 'email': 'ultraboy@gmail.com', 'fullna
 username = input('username: ')
 password = input('password: ')
 
-if username in users.keys() and users[username]['password'] == password:
+if username in users.keys() and users[username]['password'] == password:  
        print('Sigh in successfully')
        print(f'''
        These are your information:
